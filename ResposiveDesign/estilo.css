@@ -1,3 +1,27 @@
-.col{
-	background: #ccc;
+header{
+	background: url("img/bgheader.jpg");
+	height: 659px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Negritas{
+	font-weight: bold;
+	color: white;
+}
+ul li{
+	display: inline-block;
+	float: right;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+ul li a{
+	color: #ffffff;
+}
+ul{
+	padding-top: 10px;
+}
+nav {
+  vertical-align: top;
+  margin-left: -40px;
+  margin-top: 0px;
 }
