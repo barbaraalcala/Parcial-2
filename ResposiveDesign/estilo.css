@@ -40,6 +40,14 @@ li a{
 	width: 100%;
     margin-top: 5px;
 }
+.busqueda{
+    display: flex;
+    flex-direction: row;
+} 
+.lupa{
+    margin-left: -30px;
+    margin-top: 9px;
+} 
 #center-header{
 	height: 596px;
 }
@@ -91,17 +99,105 @@ li a{
 }
 .text-center{
 	padding-top: 42px;
-	color: #8c8b8b;
+	color: #828181;
 }
 .linea{
-  width: 45px;
-  height: 2px;
-  border: 0;
-  background-color: #828181; 
+   background-color: #828181; 
+   width: 45px;
+   height: 2px; 
 }
 .texto{
-  text-align: center;
-  color: #c2bebe;
-  margin-top: 12px;
+   text-align: center;
+   color: #54d154;
+   font-size: 16px;
+   margin-top: 12px;
 }
+.fotos{
+   background: #e1f3e1;
+   width: 142px;
+   height: 142px;
+   border-radius: 20px;
+   margin-top: 60px;
+}
+.apartados{
+   font-size: 24px;
+   color: #828181;
+   font-weight: bold;
+   margin-top: 28px;
+}
+.click{
+    background: #54d154;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding:4px 0px;
+    border-radius: 20px;
+    transition: 0.5s ease all;
+}
+.click:hover{
+    text-decoration: none;
+    background: #54d154;
+    transform: scale(1.05);
+    color: #fff;
+}
+.lrm{
+    font-size: 15px;
+    color: #8c8b8b;
+    width: 272px;
+    text-align: center;
+    padding-top: 19px;
+    line-height: 1.2 (18px); /*Interlineado*/
+}
+.medio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuadro{
+	border-radius: 20px;
+	background: #e1f3e1;
+    width: 142px;
+    height: 142px;
+}
+.size{
+    background: #54d154;
+    height: 750px;
+}
+.siguiente{
+	color: #828181;
+    font-size: 18px;   
+}
+.iconos{
+	color: #54d154;
+}
+.fotos{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondito{
+	background: #54d154;
+	margin-top: 43px;
+}
+.seccion{	
+}
+.otro-titulo{
+    font-size: 20.54px; 
+    padding-top: 43px;
+    color: #207b20;
+}
+.line{
+   background-color: #207b20; 
+   width: 45px;
+   height: 2px; 
+}
+.otro-sub{
+	font-size: 16px;
+	color: #207b20;
+	text-align: center;
+}
+
+
 
