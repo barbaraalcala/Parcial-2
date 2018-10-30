@@ -36,7 +36,7 @@ li a{
 	height: 27px; /*De arriba para abajo (Altura)*/
 	padding: 7px 0px; /*Distancia de la letra para arriba y para abajo*/
 	font-size: 16px;
-	color: #11111
+	color: #111;
 	width: 100%;
     margin-top: 5px;
 }
@@ -137,9 +137,9 @@ li a{
 }
 .click:hover{
     text-decoration: none;
-    background: #54d154;
+    background: #f34d04;
     transform: scale(1.05);
-    color: #fff;
+	color: #fff;	
 }
 .lrm{
     font-size: 15px;
@@ -179,9 +179,8 @@ li a{
 }
 .fondito{
 	background: #54d154;
-	margin-top: 43px;
-}
-.seccion{	
+    margin-top: 43px;
+    height: 746px;
 }
 .otro-titulo{
     font-size: 20.54px; 
@@ -198,5 +197,104 @@ li a{
 	color: #207b20;
 	text-align: center;
 }
+.centrado{
+	display: flex;
+	justify-content: center;
+}
+.menu-de-3{
+	display: flex;
+	justify-content: center;	
+}
+.tamnaño{
+	width: 280px;
+	height: 33px;
+}
+.tamnaño ul .active{	
+	width: 121px;
+	color: #fff;
+    border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	text-align: center;  
+	background: #2b9b2b; 
+}
+.medida_2 a{
+	color: #2b9b2b;
+	background: #fff;
+	width: 87px;
+	text-align: center;	
+	border-right: 1px solid #2b9b2b;
+	border-top: 1px solid #2b9b2b;
+	border-bottom: 1px solid #2b9b2b;
+}
+.medida_3 a{
+	background: #fff;
+	width: 68px;
+	color: #2b9b2b;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	text-align: center;	
+	border-right: 1px solid #2b9b2b;
+	border-top: 1px solid #2b9b2b;
+	border-bottom: 1px solid #2b9b2b;
+}
+.imagenes{
+	padding-top: 58px;
+	display: flex;
+	justify-content: center;	
+}
+#ver_mas{
+	width: 190px;
+    background: #2b9b2b;
+    border-color: #2b9b2b;
+}
+.opcion{
+	display: flex;
+    justify-content: center;
+    padding-top: 189px;
+}
+.opcion a{
+	background-color: rgba(32, 148, 47, 0.9);
+	border: none;
+	border-radius: 20px;
+	width: 184px;
+	height: 40px;
+	color: #fbfefb;
+	text-align: center;
+	padding: 7px 5px;
+    font-size: 18px;
+    margin-top: -120px;
+}
+.opcion a:hover{
+    text-decoration: none;
+    background: #f34d04;
+    transform: scale(1.05);	
+}
+.new_section{
+	background: #ffffff;
+	height: 500px;
+}
+.testimonials{
+    font-size: 20.54px; 
+    padding-top: 43px;
+    color: #828181;
+}
+.testimonials1{
+	font-size: 16px;
+	color: #828181;
+	text-align: center;
+}
+.generic_center{
+	display: flex;
+	justify-content: center;
+}
+.testimonials2{
+	font-size: 16px;
+    color: #444444;
+    text-align: center;
+	line-height: 1.2 (18px); 
+	padding-top: 74px;
+}
+
+
 
 
