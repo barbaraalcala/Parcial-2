@@ -10,6 +10,7 @@
     crossorigin="anonymous">
   <!--Sirve para cargar el CDN de la hoja de estilos de Bootstrap-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="js/slick/slick.css">
   <link rel="stylesheet" href="estilo.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
     crossorigin="anonymous">
@@ -66,21 +67,21 @@
       <div class="fotos"><i class="fas fa-6x fa-camera-retro iconos"></i></div>
       <h2 class="apartados">Lorem ipsum</h2>
       <p class="lrm">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-        sollicitudin, lorem quis bibendum auctor,</p>
+        sollicitudin, lorem quis bibendum auctor.</p>
       <a href="" class="click">Learn more</a>
     </div>
     <div class="col-md-4 medio">
       <div class="fotos"><i class="fas fa-6x fa-tachometer-alt iconos"></i></div>
       <h2 class="apartados">Lorem ipsum</h2>
       <p class="lrm">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-        sollicitudin, lorem quis bibendum auctor,</p>
+        sollicitudin, lorem quis bibendum auctor.</p>
       <a href="" class="click">Learn more</a>
     </div>
     <div class="col-md-4 medio">
       <div class="fotos"><i class="fas fa-6x fa-briefcase iconos"></i></div>
       <h2 class="apartados">Lorem ipsum</h2>
       <p class="lrm">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-        sollicitudin, lorem quis bibendum auctor,</p>
+        sollicitudin, lorem quis bibendum auctor.</p>
       <a href="" class="click">Learn more</a>
     </div>
   </div>
@@ -133,23 +134,235 @@
     </div>
   </div>
   <div class="container-fluid new_section">
-    <div class="row section_tes">
+    <div class="col-md-12">
+      <h2 class="text-center testimonials">TESTIMONIALS</h2>
+      <hr class="linea">
+      <p class="testimonials1">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+    </div>
+    <div class="testimonials">
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aspernatur blanditiis eaque, optio hic
+          officia id a, officiis natus porro dolorem minus nulla facere rem magni sunt ratione? Recusandae, ex?
+        </p>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aspernatur blanditiis eaque, optio hic
+          officia id a, officiis natus porro dolorem minus nulla facere rem magni sunt ratione? Recusandae, ex?
+        </p>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aspernatur blanditiis eaque, optio hic
+          officia id a, officiis natus porro dolorem minus nulla facere rem magni sunt ratione? Recusandae, ex?
+        </p>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aspernatur blanditiis eaque, optio hic
+          officia id a, officiis natus porro dolorem minus nulla facere rem magni sunt ratione? Recusandae, ex?
+        </p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <!-- Codigo JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/slick/slick.min.js"></script>
+  <script>
+    // DOM- Document Object Mode
+    // Funciones -> Anónimas y Declaradas... Anonima funcion...Declarada nombre
+    // function alerta(){}  Esto es una declaracion
+    // alerta(){}; Invocacion o llamada o ejecucion
+    $(document).ready(function () {
+      $('.testimonials').slick();
+    });
+  </script>
+
+
+  <div class="container-fluid section_ourhapy">
+    <div class="row section_our">
       <div class="col-md-12">
-        <h2 class="text-center testimonials">TESTIMONIALS</h2>
+        <h2 class="text-center testimonials">OUR HAPPY CLIENT</h2>
         <hr class="linea">
         <p class="testimonials1">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
-
-
-        
+        <div class="col-md-12">
+          <div class="row logos">
+            <div class="testimonials_logos">
+              <img src="img/google.jpg" class="col-md-2 offset-2">
+              <img src="img/yahoo.jpg" class="col-md-2">
+              <img src="img/microsoft.jpg" class="col-md-2">
+              <img src="img/intel.jpg" class="col-md-2">
+            </div>
+          </div>
+          <div class=" row logos">
+            <div class="testimonials_logos">
+              <img src="img/qual.jpg" class="col-md-2 offset-2">
+              <img src="img/cisco.jpg" class="col-md-2">
+              <img src="img/apple.jpg" class="col-md-2">
+              <img src="img/asus.jpg" class="col-md-2">
+              <div class="col-md-12 see_opcion">
+                <div class="row">
+                  <div class="see_all_client">
+                    <a href="">See all client<i class="fas fa-long-arrow-alt-right distancia"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-    </div>
-  </div>
+        </div>
+      </div>
+
+      <div class="container-fluid container_team">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center title_client">MEET THE TEAM</h2>
+              <hr class="linea">
+              <p class="text-center desing">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            </div>
+      
+            <div class="col-md-12">
+              <div class="row generic_center altura">
+                  <div class="col-md-2"><img class="border_img" src="img/persona1.jpg" alt=""></div>
+                  <div class="col-md-2"> <img class="border_img" src="img/persona4.jpg" alt=""> </div>
+                  <div class="col-md-2"> <img class="border_img" src="img/persona3.jpg" alt=""></div>
+                  <div class="col-md-2"> <img class="border_img" src="img/persona2.jpg" alt=""></div>
+                  <div class="col-md-2"> <img class="border_img" src="img/persona1.jpg" alt=""></div>
+              </div>
+            </div>
+  
+            <div class="col-md-12">
+              <div class="row generic_center altura3">
+                  <div class="col-md-2"><div class="vl"></div></div>
+                  <div class="col-md-2"><div class="vl"></div></div>
+                  <div class="col-md-2"><div class="vl"></div></div>
+                  <div class="col-md-2"><div class="vl"></div></div>
+                  <div class="col-md-2"><div class="vl"></div></div>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="row generic_center altura3">
+                    <div class="col-md-2">hjhknk<div class=""></div></div>
+                    <div class="col-md-2">kjnkjnkm,<div class=""></div></div>
+                    <div class="col-md-2">kjnhkj<div class=""></div></div>
+                    <div class="col-md-2">hnknkj<div class=""></div></div>
+                    <div class="col-md-2">hjknlk<div class=""></div></div>
+                </div>
+              </div>
+      
+          </div>
+      
+        </div>
+      <!-- <div class="container-fluid fondito_2">
+        <h2 class="text-center testimonials">OUR HAPPY CLIENT</h2>
+        <hr class="linea">
+        <p class="testimonials1">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+
+        <div style="display:flex;flex-direction:column;">
+          <div class="programando">
+            <div class="col-md-12 row generic_center">
+              <div class="col-md-2"><img src="img/persona1.jpg" alt=""></div>
+              <div class="col-md-2"><img src="img/persona2.jpg" alt=""></div>
+              <div class="col-md-2"><img src="img/persona3.jpg" alt=""></div>
+              <div class="col-md-2"><img src="img/persona4.jpg" alt=""></div>
+              <div class="col-md-2"><img src="img/persona5.jpg" alt=""></div>
+            </div>
+            <div class="col-md-12 row generic_center">
+              <div class="row">
+                  <div class="col-md-2"><div class="vl"></div></div>
+                  <div class="col-md-2"><div class="vl"></div></div>
+                  <div class="col-md-2"><div class="vl"></div></div>
+                  <div class="col-md-2"><div class="vl"></div></div>
+                  <div class="col-md-2"><div class="vl"></div></div>
+            </div>
+            </div>
+          </div>
+          <div class="programando2"></div>
+        </div>
+      </div> -->
+      <div class="col-md-12 work_with_us_2">
+        <div class="row">
+          <div class="opcion_2">
+            <a href="">WORK WITH US</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid negro">
+        <div class="row nuevo_de_3">
+          <div class="col-md-12">
+            <div class="col-md-12 row">
+              <div class="col-md-4 medio">
+                <h1 class="dif_temas_aboutus">ABOUT US</h1>
+                <hr class="liniecita">
+                <p class="descripcion">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                  auctor
+                  aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                  sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                  Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean
+                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                  elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                <img src="img/etiqueta2.jpg">
+              </div>
+
+              <div class="col-md-4 medio">
+                  <h1 class="dif_temas_aboutus">RECENT POST</h1>
+                  <hr class="liniecita">
+                  
+                  <section class="divisiones">
+                      <article>
+                        <img src="img/6.jpeg">
+                        <p>Lorem Ipsum Dolor Sit Amet.</p>
+                        <a class="post" href="#">Magazine</a>
+                     </article>
+                      <article>
+                        <img src="img/7.jpeg">
+                        <p>Lorem Ipsum Dolor Sit Amet.</p>
+                        <a class="post" href="#">Ui design</a>
+                      </article>
+                      <article>
+                        <img src="img/8.jpeg">
+                        <p>Lorem Ipsum Dolor Sit Amet.</p>
+                        <a class="post" href="#">Photography</a>
+                      </article>
+                      <article>
+                        <img src="img/10.jpeg">
+                        <p>Lorem Ipsum Dolor Sit Amet.</p>
+                        <a class="post" href="#">Book</a>
+                      </article>
+                      <article>
+                        <img src="img/9.jpeg">
+                        <p>Lorem Ipsum Dolor Sit Amet.</p>
+                        <a class="post" href="#">Ui design</a>
+                      </article>
+                     </section>
+
+                </div>
+
+                <div class="col-md-4 medio">
+                    <h1 class="dif_temas_aboutus">CONTACT US</h1>
+                    <hr class="liniecita">
+                    <p class="descripcion">10044 West 23th Street, Suite 721
+                      New York NY 10010
+                      Email: Username@email.com
+                      Phone: +1 (0) 123 4567 890
+                      Fax: +1 (0) 321 4567 890</p>
+                    <input type="text" placeholder="Your Name.." class="escribir1">
+                    <input type="text" placeholder="Your Email.." class="escribir2">
+                    <input type="text" placeholder="Your Mesage.." class="escribir3">
+                    <a href="" class="send">SEND</a>
+                  </div>
+</div>
+</div>
+</div>
+</div>
 
 
-
-
+</div>
+</div>
+</div>
+             
+              
 
 </body>
 
