@@ -389,18 +389,22 @@ li a{
 }	
 .negro{
 	background: #333333;
-    height: 800px;
-    margin-top: -47px;
+    height: 600px;
 }
-.dif_temas{
+.dif_temasaboutus{
 	font-size: 24px;
-    color: #dddddd;
-    margin-top: 80px;
+    color: #fff;
+    padding-top: 50px;	
  }
- .dif_temas_aboutus{
+ .dif_temasrecent{
 	font-size: 24px;
-	color: #dddddd;
-	margin-top: 80px;
+    color: #fff;
+	margin-top: -73px;
+ }
+ .dif_temascontactus{
+	font-size: 24px;
+    color: #fff;
+	margin-top: -39px; 
  }
  .liniecita{
 	background-color: #dddddd; 
@@ -415,11 +419,9 @@ li a{
     text-align: center;
     padding-top: 10px;
 }
-.dif_temas_contactus{
-	font-size: 24px;
-	color: #dddddd;
-	margin-top: -196px;
- }
+.colorlorem{
+	color: #ffffff;
+}
 .escribir1{
 	background: #444444;
 	border: none;
@@ -449,14 +451,14 @@ li a{
 	font-size: 16px;
 	color: #777777;
 	width: 100%;
-    margin-top: 2px;
+	margin-top: 2px;
 }
 .send{
 	background-color: #2b9b2b;
     border: none;
     border-radius: 5px;
     height: 32px;
-    width: 399px;
+	width: 416px;
     color: #ffffff;
     text-align: center;
     padding: 7px 5px;
@@ -466,7 +468,8 @@ li a{
 .send:hover{
 	text-decoration: none;
 	background: #e50f0f;
-	transform: scale(1.05)
+	transform: scale(1);
+	color:#fff;
 }
 .final{
 	background: #222222;
@@ -510,11 +513,16 @@ li a{
 	margin: auto;
 	display: block;
 }
+.personaje{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .personaje p{
 	text-align: center;
 }
 .personaje .linea_vertical{
-	width: 6px;
+	width: 2px;
 	height: 77px;
 	background: green;
 	margin: auto;
@@ -523,4 +531,170 @@ li a{
 }
 .color_de_nombres{
 	color: #fff;
+}
+.post_magazine{
+	color: #fff;
+    background: #207b20;
+    padding: 5px 8px;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.divisiones a:hover{
+    text-decoration: none;
+    background: #f34d04;
+    transform: scale(2.05);
+	color: #fff;	
+}
+.post_iudesing{
+	color: #fff;
+    background: #ffba00;
+    padding: 5px 8px;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.post_photography{
+	color: #fff;
+    background: #089dea;
+    padding: 5px 8px;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.post_book{
+	color: #fff;
+    background: #f34d04;
+    padding: 5px 8px;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.derecho_completo p{
+	color: #444444;
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+.derecho_completo a{
+	color: #ccc;
+	font-size: 16px;
+	font-weight: 400;
+}
+.dos_divisones{
+	display: flex;
+	align-items: center;
+	padding-top: 6px;
+}
+.izquierdo_nuevo{
+	vertical-align: middle;
+    border-style: none;
+    padding-right: 12px;
+}
+.fondo_as{
+	background: #222222;
+	height: 222px;
+}
+.as_seen_on{
+	color: #101010;
+	padding-top: 25px;
+}
+.linea_negra{
+	background-color: #101010; 
+	width: 45px;
+	height: 2px; 
+ }
+.ultimo{
+	font-size: 16px;
+	color: #101010;
+	text-align: center;
+}
+.marcas{
+	display: flex;
+	justify-content: center;	
+}
+.final{
+	background: #111111;
+	height: 33px;
+}
+.made_with{
+	color: #fff;
+	font-size: 16px;
+	padding-top: 5px;
+}
+.contenedor_redes{
+	background: #c5e9c5;
+    width: 85px;
+	height: 28px;
+	border: none;
+	border-radius: 15px;
+	text-align: center;
+	display: flex;
+    justify-content: space-around;
+}
+#fusion_link{
+	padding-right: 5px;
+}
+.redes{
+	display: flex;
+	align-items: center;
+	padding-right: 6px;
+}
+.dribbble{
+	color: #e8548c;
+	font-size: 18px;	
+}
+.behance{
+	color: #fff;
+    font-size: 11px;
+    background: #0061ff;
+    padding: 4px 4px;
+    border: none;
+    border-radius: 18px;	
+}
+.twitter{
+	color: #fff;
+    font-size: 11px;
+    background: #00aced;
+    padding: 4px 4px;
+    border: none;
+    border-radius: 18px;	
+}
+.contenedor_redes2{
+	background: #e6e7e6;
+    width: 85px;
+	height: 28px;
+	border: none;
+	border-radius: 15px;
+	text-align: center;
+	padding: 4px 0px;
+	padding: 4px 9px;
+    display: inline-flex;
+}
+.redes2{
+	display: contents;
+	align-items: center;	
+}
+.dribbble2{
+	color: #e8548c;
+	font-size: 18px;
+	margin-left: -8px;	
+}
+.facebook{
+	color: #fff;
+    font-size: 11px;
+    background: #1d53aa;
+    padding: 4px 7px;
+    border: none;
+	border-radius: 18px;
+	margin-right: 8px;
+    margin-left: 8px;
+}
+.twitter2{
+	color: #fff;
+    font-size: 11px;
+    background: #00aced;
+    padding: 4px 4px;
+    border: none;
+    border-radius: 18px;	
 }
